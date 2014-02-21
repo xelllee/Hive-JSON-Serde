@@ -20,7 +20,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<cdh.version>0.8.1-cdh4.0.1</cdh.version>
+	<!--<cdh.version>0.8.1-cdh4.0.1</cdh.version>-->
+	<cdh.version>0.10.0-cdh4.4.0</cdh.version>
     </properties>
 
 
@@ -91,6 +92,9 @@
 	    <name>Cloudera Maven Repo</name>
 	    <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
 	</repository>
+
+
+
     </repositories>
     <dependencies>
         <dependency>
